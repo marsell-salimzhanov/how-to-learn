@@ -21,17 +21,17 @@
 }
 
 .logo {
+  z-index: 2;
+  background-repeat: no-repeat;
+  }
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
   height: 32px;
   width: 183px;
   background-image: url(../images/logo_place_header.svg);
-  z-index: 2;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-
-.logo_place_header {
-  top: 30px;
-  left: 64px;
 }
 
 .header__title {
@@ -175,6 +175,7 @@
   background-position: bottom left;
   background-size: 867px 637px;
   position: relative;
+  padding-top: 100px;
 }
 
 .feinman__title {
@@ -287,18 +288,19 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
 }
 
-.logo_footer {
+.logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   width: 183px;
   height: 35px;
 }
 
 .footer__author {
-  left: 0;
-  bottom: 0;
   font-size: 18px;
   line-height: 25px;
   color: white;
