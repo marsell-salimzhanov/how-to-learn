@@ -1,0 +1,12 @@
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  color: #2F80ED;
+  margin-left: 48px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.khan__buy-link:hover {
+  transition: opacity 1s linear;
+}
