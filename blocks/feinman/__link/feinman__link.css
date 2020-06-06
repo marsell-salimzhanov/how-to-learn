@@ -8,3 +8,8 @@
   line-height: 51px;
   text-decoration: none;
 }
+
+.feinman__link:hover {
+  opacity: 0.5;
+  transition: all 0.5s linear 0.05s;
+}
